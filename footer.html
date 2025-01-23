@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        footer{background-color: rgb(1, 172, 253);}
+        .footer-column-container{  display: flex; max-width: 1070px;
+        margin: 0 auto; padding: 100px 0px 100px 0px; justify-content: space-between;align-items: center;}
+         .footer-logo{display: flex;}
+         .footer-text{color: rgb(255, 255, 255);}
+         .column-item{list-style: none;}
+         .column-link{text-decoration: none; font-size: 1.25rem;
+            font-weight: 500;}
+         .footer-column-1{text-align:left ;}
+         .footer-logo-title{font-size: 2.5rem;
+            font-weight: 700;}
+        .footer-logo-description{font-size: 1.25rem;
+            font-weight: 400;}
+        .column-title{Font-weight:700;Font-size:1.5rem}
+        .tag-title{font-size: 1.6rem;
+            font-weight: 700;}
+
+            @media screen and (max-width:576px) {
+                .footer-column-container{  flex-direction: column;}
+                
+            }
+    </style>
+</head>
+<body>
+    <footer>
+        
+        <div class="footer-column-container">
+            <div class="footer-column-1">
+                <div class="footer-logo">
+                    
+                     <img  src="assets/logo1.png" alt="">
+                    <h3 class="footer-logo-title footer-text">Kids
+                        Education</h3>
+                </div>
+                <p class="footer-logo-description footer-text">We provide a well-rounded education that includes <br> academic and non-academic subjects while <br> encouraging critical thinking and community <br>engagement is often considered the best.
+    
+                </p>
+    
+            </div>
+            <div class="footer-column-2">
+                <h4 class="column-title footer-text">About School </h4>
+                <li class="column-item">
+                    <a href="" class="column-link footer-text">Home</a></li>
+                <li class="column-item">
+                    <a href="" class="column-link footer-text">About</a></li>
+                <li class="column-item">
+                    <a href="" class="column-link footer-text">Facilities</a></li>
+                <li class="column-item">
+                    <a href="" class="column-link footer-text">Admission</a></li>
+                
+                
+    
+            </div>
+            <div class="footer-column-3">
+                <h4 class="tag-title footer-text">Keep In Touch</h4>
+                <div>
+                    <a href=""><img src="assets/fb.png" alt=""></a>
+    
+                    <a href=""><img src="assets/dribble.png" alt=""></a>
+    
+                    <a href=""><img src="assets/twitter.png" alt=""></a>
+    
+                    <a href=""><img src="assets/google+.png" alt=""></a>
+                </div>
+    
+            </div>
+        </div>
+        
+    </footer>
+</body>
+<div class="footer-column-container"></div>
+</html>

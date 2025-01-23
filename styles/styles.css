@@ -5,7 +5,7 @@
     font-weight: <weight>;
     font-style: normal;
   }
- *{margin: 0;padding: 0;}   
+ *{margin: 0px auto;padding: 0px;}    
  /* shared styles */
  .hide{display: none;}
 
@@ -16,7 +16,7 @@
 
 
   body{max-width: 1440px; margin: o auto;} 
-  main{max-width: 1440px; margin: o auto;} 
+ 
 
 /* nav styles */
 
@@ -130,7 +130,25 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .view-btn{color: rgb(255, 255, 255);width: 197px;
     height: 50px;  font-size: 1.25rem;
     font-weight: 700;padding: 10px;margin: 80px 0px;
-    border-radius: 12px; background-color:rgb(17, 17, 17); }  
+    border-radius: 12px; background-color:rgb(17, 17, 17); } 
+    
+    /* FOOTER related styles */
+    footer{background-color: rgb(1, 172, 253);}
+    .footer-column-container{  display: flex; max-width: 1070px;
+    margin: 0 auto; padding: 100px 0px 100px 0px; justify-content: space-between;align-items: center;}
+     .footer-logo{display: flex;}
+     .footer-text{color: rgb(255, 255, 255);}
+     .column-item{list-style: none;}
+     .column-link{text-decoration: none; font-size: 1.25rem;
+        font-weight: 500;}
+     .footer-column-1{text-align:left ;}
+     .footer-logo-title{font-size: 2.5rem;
+        font-weight: 700;}
+    .footer-logo-description{font-size: 1.25rem;
+        font-weight: 400;}
+    .column-title{Font-weight:700;Font-size:1.5rem}
+    .tag-title{font-size: 1.6rem;
+        font-weight: 700;}
 
 
 
@@ -147,4 +165,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .card-container{flex-direction: column;}
     .ball-container{display: none;}
     .stories-1{display: none;}
+    .story-cards{margin-left: 0px;}
+    .footer-column-container{  flex-direction: column; gap: 50px;
+     }
 }
