@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-white{background-color: rgb(255, 255, 255);width:290px ; height:301px ; text-align: center; border-radius: 16px;}
+        /* max-width: 1440px; border:1px solid blue; */
+        .story{max-width: 1440px;margin: 0 auto;  padding: 60px 0px 60px 0px; text-align: center; background-image: url(assets/bg.png);
+        background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);}
+        .story-cards{display: flex;margin: 80px 140px;gap:20px;}
+        .stories-1{background-color: rgb(255, 255, 255); border-radius: 16px;}
+        .story-1{ width: 540px; height: 630px; text-align: center; }
+        .stories-card-container{display: grid;grid-template-columns: repeat(2,1fr); gap: 19px;}
+        #our-stories{font-size: 2.9rem;
+                        font-weight: 700; }
+        .story-title{font-size: 1.5rem;font-weight: 700;text-align: center;}
+        .story-description{font-family: Raleway;font-size: 1rem;font-weight: 500;color: rgba(102, 102, 102, 1);}
+        .story-comment{font-size: 1rem;font-weight: 700;text-align: center;}
+
+        .btn-1{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+            font-weight: 500; padding: 14px 18px; 
+            background-color: rgb(60, 216, 232);border-radius: 47px; border: none; margin-left: -300px;margin-top: -300px;}
+        .btn-2{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+            font-weight: 500; padding: 14px 18px;border-radius: 47px;border: none;background-color: rgb(149, 178, 38); margin-left: -100px;margin-top: -100px;}
+
+        .btn-3{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+            font-weight: 500; padding: 14px 18px;border-radius: 47px; border: none;background-color:rgb(93, 88, 240) ; margin-left: -100px;margin-top: -100px;}
+
+        .btn-4{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+            font-weight: 500; padding: 14px 18px; border-radius: 47px;border: none;background-color:rgb(149, 178, 38) ; margin-left: -100px;margin-top: -100px;}
+
+        .btn-5{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+            font-weight: 500; padding: 14px 18px;border-radius: 47px;border: none;background-color:rgb(149, 178, 38) ; margin-left: -100px;margin-top: -100px;}
+        .view-btn{color: rgb(255, 255, 255);width: 197px;
+            height: 50px;  font-size: 1.25rem;
+            font-weight: 700;padding: 10px;margin: 80px 0px;
+            border-radius: 12px; background-color:rgb(17, 17, 17); }   
+        
+
+
+    </style>
+
+
+</head>
+<body>
+    <section class="story">
+        <h2 id="our-stories">Our Stories</h2>
+        <div class="story-cards">
+            <div class="stories-1">
+                <div class="story-1  ">
+                    <img src="assets/story-1.png" alt="">
+                    <button class="btn-1">November 19, 2019</button>
+                    <h4 class="story-title">A fun toddler coloring training on
+                        classroom</h4>
+                    <p class="story-description">Beautiful branding for changes by Never Now in Australia.
+                        changes is a platform for open discussion in an inclusive and
+                        collaborative environment, providing the...</p>
+
+                </div>
+            </div>
+
+            <div class="stories-card-container">
+                <div class="story-2 bg-white">
+                    <img src="assets/story-2.png" alt="">
+                    <button class="btn-2">November 19, 2019</button>
+                    <h5 class="story-comment">Find out if a school fits the
+                        family’s needs</h5>
+                </div>
+
+                <div class="story-3 bg-white">
+                    <img src="assets/story-3.png" alt="">
+                    <button class="btn-3">November 19, 2019</button>
+                    <h5 class="story-comment">Summer math & literacy
+                        centres for kids</h5>
+                </div>
+
+                <div class="story-4 bg-white">
+                    <img src="assets/story-4.png" alt="">
+                    <button class="btn-4">September 10, 2019</button>
+                    <h5 class="story-comment">Classroom management
+                        techniques for new tutors</h5>
+                </div>
+                <div class="story-5 bg-white">
+                    <img src="assets/story-5.png" alt="">
+                    <button class="btn-5">July 19, 2019</button>
+                    <h5 class="story-comment">Conversation rhymes
+                        improve kids listening</h5>
+                </div>
+
+            </div>
+        </div>
+        <div >
+            <button class="view-btn">View All</button>
+        </div>
+
+    </section>
+    
+</body>
+</html>

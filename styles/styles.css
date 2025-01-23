@@ -15,7 +15,8 @@
 .button-text-color{color: #FFFFFF;}
 
 
- body{max-width: 1440px; margin: o auto;} 
+  body{max-width: 1440px; margin: o auto;} 
+  main{max-width: 1440px; margin: o auto;} 
 
 /* nav styles */
 
@@ -95,6 +96,42 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 #card-color-2{color:rgb(240, 170, 0) ;}
 #card-color-3{color: rgb(135, 0, 255);}
 
+/* OUR STORIES RELATED STYLES */
+
+.story{max-width: 1440px;   text-align: center; 
+    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);}
+.bg-white{background-color: rgb(255, 255, 255);width:290px ; height:301px ; text-align: center; border-radius: 16px;}
+
+.story-cards{display: flex; margin: 80px 105px;gap:50px; max-width: 1230px;}
+.stories-1{background-color: rgb(255, 255, 255); border-radius: 16px;}
+
+.story-card-1{ width: 540px; height: 630px; text-align: center; }
+.stories-card-container{display: grid;grid-template-columns: repeat(2,1fr); gap: 19px;}
+#our-stories{font-size: 2.9rem;
+                font-weight: 700; }
+.story-title{font-size: 1.5rem;font-weight: 700;text-align: center;}
+.story-description{font-family: Raleway;font-size: 1rem;font-weight: 500;color: rgba(102, 102, 102, 1);}
+.story-comment{font-size: 1rem;font-weight: 700;text-align: center;}
+
+.btn-1{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+    font-weight: 500; padding: 14px 18px; 
+    background-color: rgb(60, 216, 232);border-radius: 47px; border: none; margin-left: -300px;margin-top: -300px;}
+.btn-2{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+    font-weight: 500; padding: 14px 18px;border-radius: 47px;border: none;background-color: rgb(149, 178, 38); margin-left: -100px;margin-top: -100px;}
+
+.btn-3{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+    font-weight: 500; padding: 14px 18px;border-radius: 47px; border: none;background-color:rgb(93, 88, 240) ; margin-left: -100px;margin-top: -100px;}
+
+.btn-4{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+    font-weight: 500; padding: 14px 18px; border-radius: 47px;border: none;background-color:rgb(149, 178, 38) ; margin-left: -100px;margin-top: -100px;}
+
+.btn-5{color: rgb(255, 255, 255);font-family: Raleway;font-size: 1rem;
+    font-weight: 500; padding: 14px 18px;border-radius: 47px;border: none;background-color:rgb(149, 178, 38) ; margin-left: -100px;margin-top: -100px;}
+.view-btn{color: rgb(255, 255, 255);width: 197px;
+    height: 50px;  font-size: 1.25rem;
+    font-weight: 700;padding: 10px;margin: 80px 0px;
+    border-radius: 12px; background-color:rgb(17, 17, 17); }  
+
 
 
 
@@ -109,4 +146,5 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .banner{flex-direction: column-reverse;}
     .card-container{flex-direction: column;}
     .ball-container{display: none;}
+    .stories-1{display: none;}
 }
