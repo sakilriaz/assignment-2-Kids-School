@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    .standard{background-image:url(assets/bg.png); max-width: 1440px; padding: 60px 0px 60px 0px;  text-align: center;}
+    
+    .ball{font-size: 2rem; font-weight: bold; width: 60px; height: 60px; border-radius: 30px; background-color: #FEA301;border: none;}
+
+#curriculum{ font-size: 2.9rem; font-weight: bold;}
+
+.card-container{max-width:1160px;  display: flex; border: 1px solid tomato; margin: 80px auto; gap: 24px; }
+
+
+.card-title{ font-size: 1.5rem; font-weight: 700; color: rgb(32, 32, 32);}
+
+.card-description{font-size: 0.9rem; font-weight: 500; color: rgb(128, 128, 128); }
+
+.card-comment{font-size: 0.9rem; font-weight: bold;}
+
+ .card-1{text-align: center; padding: 20px;   border-radius: 18px; 
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%);  box-shadow:0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05); }
+
+
+.card-2{text-align: center; padding: 20px; border-radius: 18px;
+   background:linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%); box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05); ;  }
+
+
+.card-3{text-align: center; padding: 20px;border-radius: 18px;
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255); box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05); }
+
+#card-color-1{color: rgb(100, 200, 255);}
+#card-color-2{color:rgb(240, 170, 0) ;}
+#card-color-3{color: rgb(135, 0, 255);}
+
+
+
+    </style>
+    
+
+</head>
+<body>
+    <section class="standard">
+        
+        <h2 id="curriculum">Standard Curriculum</h2>
+        <div class="card-container">
+            <div class="card-1">
+                <img class="card-image" src="assets/kinder.png" alt="">
+                <h4 class="card-title">Kinder (3-6) Years</h4>
+                <p class="card-description">The Creative Curriculum for Preschool empowers children to be confident, creative, and caring learners through play-based, hands-on investigations—a research-based approach that incorporates language, literacy, and mathematics throughout the day.</p>
+                <p class="card-comment" id="card-color-1">Read More</p>
+            </div>
+
+            <div class="card-2">
+                <img class="card-image" src="assets/elementary.png" alt="">
+                <h4 class="card-title">Elementary School</h4>
+                <p class="card-description">Our Kids-School adheres to academic standards set by the Bangladesh Department of Education. These are a blend of Common Core and state-developed standards. Click on "Read More" to browse curriculum areas for more information on specific academic standards.</p>
+                <p class="card-comment" id="card-color-2">Read More</p>
+            </div>
+
+            <div class="card-3">
+                <img class="card-image" src="assets/middle.png" alt="">
+                <h4 class="card-title">Middle (10-16) Years</h4>
+                <p class="card-description">The Middle School comprises Grades 6 through 10 which caters for students between the ages of 11 and 16 years of age. Teaching and learning is based on the International Baccalaureate Middle Years Programme (MYP) framework .</p>
+                <p class="card-comment" id="card-color-1">Read More</p>
+            </div>
+        </div>
+       <div class="ball-container">
+        <button class="ball"><</button>
+        <button class="ball">></button></div>
+        
+    </section>
+    
+
+
+
+    <!-- .h2+.card-container>.card-box*3>.img+.h4+.p+.btn -->
+        <!-- .h2+.card-container>.card-box*3>.img+.h4+.p+.btn -->
+        <!-- h2+.card-container>.card-$*3>img+h4+p+btn -->
+</body>
+</html>
