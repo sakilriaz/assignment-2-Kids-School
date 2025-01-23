@@ -7,11 +7,14 @@
   }
  *{margin: 0;padding: 0;}   
  /* shared styles */
+ .hide{display: none;}
+
 .orange{color: rgba(254, 163, 1, 1);}
 .black{color: rgba(17, 17, 17, 1);}
 .sky{color: rgb(1, 172, 253);}
 .button-text-color{color: #FFFFFF;}
-/* header styles */
+
+
  body{max-width: 1440px; margin: o auto;} 
 
 /* nav styles */
@@ -25,7 +28,7 @@
     font-weight: 700;
     }
 
-.nav-items{}
+
 .nav-item{list-style: none; margin-right: 32px;}
 .nav-link{text-decoration: none; font-size:1.25rem; font-weight: 500;
     }
@@ -35,9 +38,16 @@
     padding: 10px; background-color: rgba(254, 163, 1, 1);
     width: 197px;  border-radius: 12px; border: none;}
 
+    /* navbar-2 related styles */
+    .logo{width:25%;}
+    .navbar-2{border-bottom: 1px solid orange; display: flex;
+    justify-content: space-between; align-items: center;} 
+    .navbar-2-hide{display: none;}
+
+
     /* banner-related styles */
-    .banner{max-width: 1160px;margin-left: 160px; align-items: center; gap: 50px;}
-    .banner-container{}
+    .banner{max-width: 1160px;margin-left: 160px; display:flex; align-items: center; gap: 50px;}
+    .banner-container{justify-content: center;align-items: center;}
     .banner-title{font-size: 3.5rem;
         font-weight: 700;
         text-align: left;
@@ -51,7 +61,9 @@
         width: 197px;  border-radius: 12px; border: none;}
     .banner-img{width: 100%;}
 
+
     /* standard curriculum related styles */
+
 
     .standard{ max-width: 1440px; padding: 60px 0px 60px 0px;  text-align: center; }
     
@@ -83,3 +95,18 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 #card-color-2{color:rgb(240, 170, 0) ;}
 #card-color-3{color: rgb(135, 0, 255);}
 
+
+
+
+/* RESPONSIVE MEDIA QUERY */
+
+@media  screen and (max-width:576px) {
+    .navbar{display: none;}
+    .logo{width:25%;}
+    .navbar-2{border-bottom: 1px solid orange; display: flex;
+    justify-content: space-between; align-items: center;}
+    
+    .banner{flex-direction: column-reverse;}
+    .card-container{flex-direction: column;}
+    .ball-container{display: none;}
+}
